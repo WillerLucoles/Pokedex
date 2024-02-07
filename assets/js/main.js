@@ -6,19 +6,18 @@ let offset = 0;
 
 function convertPokemonToLi(pokemon) {
     return `
-            <li class="pokemon ${pokemon.type}">
-                <div class= 'img-conteiner'>
-                    <img src="${pokemon.photo}" alt="${pokemon.name}">
-                </div>
-                <span class="number">${pokemon.number.toString() .padStart(3,'0')}</span>
-                <span class="name">${pokemon.name}</span>
+        <li class="pokemon ${pokemon.type}">
+            <span class="number">${pokemon.number}</span>
+            <span class="name">${pokemon.name}</span>
 
-                <div class="detail">
-                    <ol class="types">
-                        ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
-                    </ol>   
-                </div>
-            </li>
+            <div class="detail">
+                <ol class="types">
+                    ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
+             </ol>
+
+            <img src="${pokemon.photo}"alt="${pokemon.name}">
+            </div>
+        </li>
     `;
 }
 
