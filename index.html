@@ -19,25 +19,39 @@
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/pokedex.css">
     <link rel="stylesheet" href="/assets/css/search.css">
+    <link rel="stylesheet" href="/assets/css/Pokemon_ViewDetail.css">
     
 </head>
+
 <body>
-    <header class="'Cabeçalho">
-        <h1 class="Titulo"> Pokedex</h1>
-        <h2 class="textoTreinador">Hey Treinador, qual Pokemon você quer pesquisar?</h2>
-        <input type="text" id="searchInput" placeholder="Pesquise aqui...">
+    <header>
+        <img id="LogoPokedex" src="assets/img/logo.svg" alt="LogoPokedex">
+        <div id="search-bar">
+            <!-- Código para a barra de pesquisa -->
+            <input id="searchInput" type="search" placeholder="Hey Treinador, pesquise seu pokemon aqui!">
+            <button id="button" type="button">
+                <img id="pokeball" src="assets/img/favicon.png">
+            </button>
+        </div>
     </header>
     <main class="content">
+        
+
         <ol id='pokemonList' class="pokemons"> 
                 <!-- Pokemons here-->
         </ol>
         
     </main>
+    <footer>
+        <img id="img_lucoles" src="assets/img/LucolesLogo_White.png" alt="WillerLucoes">
+        <p>Design by Willer Lucoles®</p>        
+    </footer>
     
     
     <!--JavaScript -->
     <script src="/assets/js/pokemon_Model.js"></script>
     <script src="/assets/js/PokeApi.js"></script>
     <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/pokemon_ViewDetails.js"></script>
 </body>
 </html>

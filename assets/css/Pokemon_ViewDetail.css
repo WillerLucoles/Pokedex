@@ -1,0 +1,178 @@
+.modalPoke {
+    display: grid;
+    filter: brightness(1.05);
+    width: 80%;
+    margin: 10% auto;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 30rem;
+    max-height: 80vh;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    overflow: auto;
+}
+
+.modalPoke .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modalPoke .header .namePoke {
+    font-size: 1,4rem;
+    text-transform: uppercase;
+    color: rgb(246, 246, 246);
+    justify-items: center;
+}
+
+.modalPoke .header .number {
+    font-size: 1,4rem;
+    opacity: 0.5;
+}
+
+.modalPoke .image {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.modalPoke .image .imagePoke {
+    max-width: 10rem;
+    width: 100%;
+}
+
+.modalPoke .deitalsAndPower {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.modalPoke .detailsBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(246, 246, 246);
+}
+
+.modalPoke .detailsBox .detailsTitle, .modalPoke .types h2 {
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+
+.modalPoke .detailsBox .detailsWidth {
+    width: 100%;
+    margin: 0.5rem auto 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.modalPoke .detailsBox .detailsWidth .detailText {
+    color: rgb(246, 246, 246);
+    filter: brightness(1.1);
+    padding: 0.35rem 1rem 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.modalPoke .types {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(246, 246, 246);
+    align-items: center;
+}
+
+.modalPoke .types .typesList {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0px;
+    margin: 0.5rem auto 0px;
+}
+
+.modalPoke .types .typesList .typeItem {
+    color: rgb(246, 246, 246);
+    filter: brightness(1.1);
+    list-style-type: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.modalPoke .statusPoke {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+    max-height: 100%;
+    }
+
+.modalPoke .statusPoke .namePoke {
+    font-size: 1rem;
+    color: rgb(246, 246, 246);
+    text-transform: capitalize;
+    letter-spacing: 0.05rem;
+}
+
+.modalPoke .statusPoke .statusBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    }
+
+.modalPoke .statusPoke .statusBox .titleStatus {
+    font-size: 0.7rem;
+    color: rgb(246, 246, 246);
+    text-transform: capitalize;
+    letter-spacing: 0.05rem;
+}
+
+.modalPoke .statusPoke .statusBox .box {
+    background-color: rgb(37, 37, 37);
+    color: rgb(246, 246, 246);
+    width: 90%;
+    margin: -0.2rem auto 0px;
+    padding: 0.2rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    filter: brightness(1.1);
+}
+
+.modalPoke .statusPoke .statusBox .hp {
+    background-color: rgb(191, 48, 41);
+}
+
+.modalPoke .statusPoke .statusBox .attack {
+    background-color: rgb(238, 127, 48);
+}
+
+.modalPoke .statusPoke .statusBox .defense {
+    background-color: rgb(152, 213, 215);
+}
+
+.modalPoke .statusPoke .statusBox .special-attack {
+    background-color: rgb(238, 127, 80);
+}
+
+.modalPoke .statusPoke .statusBox .special-defense {
+    background-color: rgb(152, 213, 217);
+}
+
+.modalPoke .statusPoke .statusBox .speed {
+    background-color: rgb(103, 143, 238);
+}
+
+.modalPoke .btnRemove {
+    cursor: pointer;
+    background-color: rgb(191, 48, 41);
+    filter: brightness(1.15);
+    border: none;
+    color: rgb(246, 246, 246);
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+}
