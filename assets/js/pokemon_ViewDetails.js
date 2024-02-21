@@ -70,9 +70,7 @@ pokeApi.viewDetails = (pokemon)=>{
         <section class="modalPoke ${typeColor}">
             <div class="header">           
                 <div class="buttonRemove">
-                    <button onclick="removePokeDetails()" class="btnRemove">
-                    Sair
-                    </button>
+                    <button onclick="removePokeDetails()" class="btnRemove"></button>
                 </div>
                 <h1 class="namePoke">${pokemon.name}</h1>
                 <span class="number">${pokemon.order}</span>
