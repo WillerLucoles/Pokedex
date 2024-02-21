@@ -11,7 +11,7 @@ Um simples Pokédex desenvolvido em HTML, CSS e JS, utilizando a API PokeAPI par
 ## Preview
 
 ![Pokédex Preview]
-https://github.com/WillerLucoles/Pokedex/blob/main/assets/img/Screen_Pokedex.JPG
+
 
 [Link para o projeto hospedado]
 https://pokedex-nine-teal.vercel.app/
@@ -23,7 +23,3 @@ Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novas 
 ## Licença
 
 **Nota:** Este projeto é apenas para fins educacionais e de demonstração. Pokémon é uma marca registrada da Nintendo, Game Freak e Creatures Inc.
-
-```
-
-Lembre-se de personalizar as seções de acordo com as características específicas do seu projeto. Adapte os caminhos de arquivos e pastas, substitua as informações de licença e atualize os links conforme necessário.
