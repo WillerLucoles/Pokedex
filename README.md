@@ -11,7 +11,7 @@ Um simples Pokédex desenvolvido em HTML, CSS e JS, utilizando a API PokeAPI par
 ## Preview
 
 [Pokédex Preview]
-<img src="/assets/img/Screen_Pokedex.jpg" alt="Site"/>
+<img src="assets/img/Screen_Pokedex.JPG" alt="Site"/>
 
 [Link para o projeto hospedado]
 https://pokedex-nine-teal.vercel.app/
