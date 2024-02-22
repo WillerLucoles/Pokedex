@@ -8,6 +8,12 @@ Um simples Pokédex desenvolvido em HTML, CSS e JS, utilizando a API PokeAPI par
 - CSS
 - JavaScript
 
+## Funcionalidades:
+
+- Requisição à API: Utilização da API PokeAPI para obter informações detalhadas sobre os Pokémon através de requisições HTTP assíncronas.
+- Manipulação do DOM: Aplicação de técnicas avançadas para dinamicamente atualizar o conteúdo da página com base nos dados recebidos da API.
+- Promises: Implementação de Promises para lidar de forma eficiente com operações assíncronas e garantir um código mais limpo e legível.
+
 ## Preview
 
 <img src="assets/img/Screen_Pokedex.JPG" alt="Site"/>
